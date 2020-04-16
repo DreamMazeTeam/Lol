@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"lol\startup_stm32f429xx.o"
+"lol\main.o"
+"lol\stm32f4xx_it.o"
+"lol\stm32f4xx_hal_msp.o"
+"lol\stm32f4xx_hal_tim.o"
+"lol\stm32f4xx_hal_tim_ex.o"
+"lol\stm32f4xx_hal_rcc.o"
+"lol\stm32f4xx_hal_rcc_ex.o"
+"lol\stm32f4xx_hal_flash.o"
+"lol\stm32f4xx_hal_flash_ex.o"
+"lol\stm32f4xx_hal_flash_ramfunc.o"
+"lol\stm32f4xx_hal_gpio.o"
+"lol\stm32f4xx_hal_dma_ex.o"
+"lol\stm32f4xx_hal_dma.o"
+"lol\stm32f4xx_hal_pwr.o"
+"lol\stm32f4xx_hal_pwr_ex.o"
+"lol\stm32f4xx_hal_cortex.o"
+"lol\stm32f4xx_hal.o"
+"lol\stm32f4xx_hal_exti.o"
+"lol\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "Lol\Lol.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Lol.map" -o Lol\Lol.axf
